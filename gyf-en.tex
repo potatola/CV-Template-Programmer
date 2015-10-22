@@ -43,8 +43,7 @@
 M.S. in Computer Applied Technology, Grade:\emph{86.32/100}
 
 {\bf Peking University}, School of Electronics Engineering and Computer Science, Beijing \hfill {\em 2009.9-2013.7} \\
-B.S. in Computer Science, GPA:\emph{3.46/4.0} \\
-B.S. in Economy
+B.S. in Computer Science, GPA:\emph{3.46/4.0}, B.S. in Economy
 
 \end{rSection}
 
@@ -54,30 +53,55 @@ B.S. in Economy
 
 \begin{rSection}{Projects}
 
-\begin{rSubsection}{UEP for Video Streaming}{2014.10¡ª2015.2}{Peking University}{}
-\item Established the mathematics model of an FEC redundancy allocation approach. Transformed it as an optimization problem and resolved it with a suboptimal hill-climbing scheme.
-\item Implemented a Matlab demo system which simulates the video codec (with JM18), our proposed FEC codec and network transmission with packet loss.
-\item The PSNR performance was improved by more than 5 dB.
-\item \emph{Paper}: Yufeng Geng, Xinggong Zhang, Chao Zhou, Zongming Guo, Unequall Error Protection For Real-time Video Streaming Using Expanding Window Reed-Solomon Code, Accepted by ICIP 2015.
-\item \emph{Patent}: Redundancy allocation scheme for Reed-Solomon coding in real-time video streaming, 201510170234.5.
+\begin{rSubsection}{Game Manager Tool for a MMORPG}{2015.8-2015.9}{NetEase Games}{Hang Zhou}
+\item Implemented the main application framework of a game manager tool in two weeks with Python and Mongodb.
+\item Reduced time for game designers and QA testers to test the game by 50\% by converting GM functions to be used for testing process.
+\item Learned PyQt and Cocos GUI programming, to make game management available both with independent client and embedded interface.
 \end{rSubsection}
+
+\begin{rSubsection}{Quality Improvement of Real-time Video Streaming}{2014.3-Present}{Peking University}{Bei Jing}
+\item Improved the performance of a UEP scheme for video streaming by formulating the redundancy allocation into a distortion minimization problem and deriving a suboptimal resolution with hill-climbing method.
+%\item Implemented a Matlab demo system which simulates our proposed UEP approach, video codec (with JM18) and network transmission with bandwidth limitation and packet loss.
+\item Designed a novel delay based congestion control algorithm, and employed a closed-loop control-theoretic model for advanced analysis and performance improvement.
+\item Implemented our algorithms with C++ as an independent module embedded in Linphone (an open-source VOIP software), which improved its performance with 3dB or more gain in PSNR, and better performance on bandwidth utilization and flow stability.
+\end{rSubsection}
+
+%\begin{rSubsection}{Unequal Error Protection for Video Streaming}{2014.10¡ª2015.2}{Peking University}{Bei Jing}
+%%\item Established the mathematics model of an Expanding Window based FEC redundancy allocation approach. Transformed it as an optimization problem and resolved it with a suboptimal hill-climbing scheme.
+%\item Improved the performance of a UEP scheme for video streaming by formulating the redundancy allocation into a distortion minimization problem and deriving a suboptimal resolution with hill-climbing method.
+%\item Implemented a Matlab demo system which simulates our proposed UEP approach, video codec (with JM18) and network transmission with bandwidth limitation and packet loss.
+%\item Extensive experiments were carried out comparing with mainstream approaches, which proves that our method achieved 5dB or more gain in PSNR.
+%\item \emph{Paper}: Yufeng Geng, Xinggong Zhang, Chao Zhou, Zongming Guo, Unequal Error Protection For Real-time Video Streaming Using Expanding Window Reed-Solomon Code, Accepted by ICIP 2015.
+%\item \emph{Patent}: Redundancy allocation scheme for Reed-Solomon coding in real-time video streaming, 201510170234.5.
+%\end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Video Bitrate adaptation}{2014.3-2014.10}{Peking University}{}
-\item Designed a novel queuing-delay based rate control algorithm, and employed a closed-loop cybernetic model for more stable and agile performance.
-\item Implemented our algorithm as a new rate control module for Linphone (an C++ open-source VOIP software), which achieved 3dB or more gains in PSNR, and better performance on bandwidth utilization and flow stability.
-\item \emph{Patent}: Video bitrate adaptation algorithm and system, 201510208870.2.
-\end{rSubsection}
+%\begin{rSubsection}{Congestion Control for Real-time Communication}{2014.3-Present}{Peking University}{Bei Jing}
+%\item Designed a novel delay based congestion control algorithm, and employed a closed-loop control-theoretic model for advanced analysis and performance improvement.
+%\item Implemented our algorithm with C++ as an independent module embedded in Linphone (an open-source VOIP software), which improved its performance with 3dB or more gain in PSNR, and better performance on bandwidth utilization and flow stability.
+%\item \emph{Paper}: Yufeng Geng, Xinggong Zhang, Tong Niu, Chao Zhou, Zongming Guo, Delay-Constrained Rate Control For Real-Time Video Streaming Over Wireless Networks, submitted to VCIP 2015
+%\item \emph{Patent}: Video bitrate adaptation algorithm and system, 201510208870.2.
+%\end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Community365 Android Application}{2013.2-2013.8}{Peking University}{}
-\item Worked with some other students to build an Android application for community social networking. This application allows users in the same community to serve each other with functions like sharing used items, sharing information, organizing activities.
-\item Independently implemented UI of the main logic, including swipe views with tabs, event publishing and displaying with pictures, listviews with search function and so on.
-\item Responsible for communication with our test users, promote our application, collect feedback and form software requirements.
-\item Participated in the whole process of the application design and development, including logic, UI design, background interface and implementation.
+\begin{rSubsection}{Community365 Android Application}{2013.2-2013.8}{Peking University}{Bei Jing}
+\item Worked with some other students to build an Android application for community social networking. This application allows users in the same community to serve each other with functions like sharing used items, sharing information, organizing events, etc.
+\item Independently implemented UI of the main logic, participated in the whole process of the application design and development.
+\item Responsible for application promotion, feedback collection and forming software requirements.
 \end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Paper and Patent}
+
+\begin{rList}
+\item Yufeng Geng, Xinggong Zhang, Chao Zhou, Zongming Guo, Unequal Error Protection For Real-time Video Streaming Using Expanding Window Reed-Solomon Code, Accepted by ICIP 2015.
+\item Yufeng Geng, Xinggong Zhang, Tong Niu, Chao Zhou, Zongming Guo, Delay-Constrained Rate Control For Real-Time Video Streaming Over Wireless Networks, Accepted by VCIP 2015
+\item Redundancy allocation scheme for Reed-Solomon coding in real-time video streaming, 201510170234.5.
+\item Video bitrate adaptation algorithm and system, 201510208870.2.
+\end{rList}
 
 \end{rSection}
 
@@ -89,7 +113,7 @@ B.S. in Economy
 
 \begin{rList}
 \item Solid knowledge in C++, Java.
-\item Familiar with Python, Shell, Matlab, HTML, MySQL.
+\item Familiar with Python, Matlab, HTML, MySQL.
 \item Solid knowledge in Software Engineering, Algorithms, Data Structures.
 \item Familiar with computer networks, video streaming.
 \item Fluent in oral and written English, CET-6 599/710
