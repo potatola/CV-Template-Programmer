@@ -1,2 +1,2 @@
 # CV-Template-Programmer
-The CV template of a programmer graduate
+The CV template of a computer science graduate, programmer
